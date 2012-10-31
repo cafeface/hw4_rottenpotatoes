@@ -1,6 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    ZenTest (4.8.2)
     actionmailer (3.1.0)
       actionpack (= 3.1.0)
       mail (~> 2.3.0)
@@ -69,6 +70,11 @@ GEM
     erubis (2.7.0)
     execjs (1.3.0)
       multi_json (~> 1.0)
+    factory_girl (4.1.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.1.0)
+      factory_girl (~> 4.1.0)
+      railties (>= 3.0.0)
     ffi (1.0.11)
     gherkin (2.8.0)
       json (>= 1.4.6)
@@ -183,11 +189,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ZenTest
   capybara
   coffee-rails (~> 3.1.0)
   cucumber-rails
   cucumber-rails-training-wheels
   database_cleaner
+  factory_girl_rails
   haml
   jquery-rails
   launchy
