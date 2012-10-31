@@ -49,7 +49,6 @@ class MoviesController < ApplicationController
   end
 
   def fail
-    flash.keep
   end
 
   def new
